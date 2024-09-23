@@ -6,23 +6,25 @@
 /*   By: xinzhang <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/19 18:14:19 by xinzhang          #+#    #+#             */
-/*   Updated: 2024/09/19 18:45:32 by xinzhang         ###   ########.fr       */
+/*   Updated: 2024/09/23 14:44:57 by xinzhang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#	include <unistd.h>
 
-#include <unistd.h>
-void ft_print_reverse_alphabet(void)
+void	ft_print_reverse_alphabet(void)
 {
-	int i;
-	i=123;
-	while (i>96)
+	int	i;
+
+	i = 'z';
+	while (i >= 'a')
 	{
 		write (1, &i, 1);
 		i--;
 	}
 }
-/* int main(void) 
+
+/*int	main(void)
 {
 	ft_print_reverse_alphabet();
-	return 0;
-} */
+	return (0);
+}*/

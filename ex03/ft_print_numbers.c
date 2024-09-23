@@ -1,7 +1,20 @@
-#include <unistd.h>
-void ft_print_numbers(void)
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_print_numbers.c                                 :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: xinzhang <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/09/22 16:17:46 by xinzhang          #+#    #+#             */
+/*   Updated: 2024/09/23 15:16:33 by xinzhang         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+#	include <unistd.h>
+
+void	ft_print_numbers(void)
 {
-	int i;
+	int	i;
+
 	i = 48;
 	while (i < 58)
 	{
@@ -9,9 +22,9 @@ void ft_print_numbers(void)
 		i++;
 	}
 }
-/* int main(void)
+
+/*int	main(void)
 {
 	ft_print_numbers();
-return 0;
-}
-*/
+	return (0);
+}*/

@@ -6,19 +6,17 @@
 /*   By: xinzhang <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/20 12:46:41 by xinzhang          #+#    #+#             */
-/*   Updated: 2024/09/20 13:02:52 by xinzhang         ###   ########.fr       */
+/*   Updated: 2024/09/23 14:49:19 by xinzhang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#	include <unistd.h>
 
-#include <unistd.h>
-void ft_putchar(char c)
+void	ft_putchar(char c)
 {
 	write(1, &c, 1);
 }
 
-/* int main(char c)
+/*int	main(void)
 {
 	ft_putchar(57);
-}	
-
-*/
+}*/
